@@ -109,6 +109,7 @@ nav ul li a {
     align-items: center;
     flex-direction: column;
     padding: 20px; /* Adjust padding as needed */
+    padding-right: 100px;
     box-sizing: border-box;
     color: rgb(240, 41, 41);
     font-family: 'Titan One', sans-serif;
@@ -126,26 +127,3 @@ nav ul li a {
   
   /* Other sections' styles go here */
   
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(245, 91, 18);
-    color: #000000;
-    text-align: center;
-    padding: 20px 0;
-    font-family: 'Titan One', sans-serif;
-    font-weight: lighter;
-    letter-spacing: 3px; /* Adjust the spacing as needed */
-    font-size: 48px;
-  }
-
-  footer ul {
-    list-style: none;
-    text-align: center;
-  }
-  
-  footer ul li {
-    display: inline;
-    margin-right: 20px;
-  }

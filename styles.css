@@ -114,6 +114,9 @@ nav ul li a {
   color: rgb(240, 41, 41);
   font-family:omnes-pro;
   font-size: 60px;
+  font-weight: bolder;
+  font-stretch:normal;
+  font-display:auto;
 
 
 
@@ -127,6 +130,13 @@ nav ul li a {
   background-color: rgb(240, 41, 41); /* Red background color */
   font-family:omnes-pro;
   color: black;
+  font-size: 60px;
+  text-align: center;
+}
+
+#test h1{
+
+  margin-top: 200px;
 
 }
 

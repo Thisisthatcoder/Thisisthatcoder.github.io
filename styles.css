@@ -103,7 +103,7 @@ nav ul li a {
 
 .content {
   position: absolute;
-  top: 63%;
+  top: 50%;
   left: 20%;
   z-index: 1; /* Ensure content appears above the image */
   display: flex;
@@ -129,7 +129,7 @@ nav ul li a {
 #test {
   width: 100%;
   height: 100vh;
-  background-color: rgb(255, 0, 0); /* Red background color */
+  background: linear-gradient(to bottom,#FF5B12, #F02929);
   font-family:omnes-pro;
   color: black;
   font-size: 60px;
@@ -141,7 +141,7 @@ nav ul li a {
 #test h1{
 
   margin-top: 200px;
-  background-color: red;
+  background-color: transparent;
 
 }
 
@@ -169,6 +169,72 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+  background: linear-gradient(to bottom, #F02929, #FF5B12);
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.subscription {
+  text-align: center;
+  padding: 20px;
+}
+
+.subscription h1 {
+  font-family:omnes-pro;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.subscription h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group input[type="email"]{
+  padding: 10px;
+  font-size: 25px;
+  margin: 20px 0; /* Adjust the margin here */
+  width: 330px;
+  height: 50px;
+}
+
+.input-group button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px 0; /* Adjust the margin here */
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.input-group input[type="email"] {
+  border: 1px solid #ccc;
+}
+
+.input-group button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 

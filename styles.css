@@ -275,4 +275,25 @@ body::-webkit-scrollbar {
 
 
 }
+
+.image-row {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.image-row img {
+  width: 30%; 
+  height: 250px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.image-row img:hover {
+  transform: scale(1.05);
+}
+
+
+
 }
